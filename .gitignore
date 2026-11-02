@@ -1,0 +1,21 @@
+# Large data and model files
+*.nc
+*.tar.gz
+*.zip
+
+# Third-party software
+croco_pytools-*/
+
+# Credentials and API keys
+.env
+*.key
+.cdsapirc
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
